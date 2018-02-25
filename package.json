@@ -1,0 +1,24 @@
+{
+  "name": "nazem-bot",
+  "version": "0.1.0",
+  "description": "Telegram bot to manage telegram group contents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "admin",
+    "manager"
+  ],
+  "author": "emech-en",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "moment": "^2.20.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "underscore": "^1.8.3"
+  }
+}
