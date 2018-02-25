@@ -7,7 +7,7 @@ const YEAR = 1991;
 class CloseGroupHandler {
     constructor(config) {
         // THIS LINE IS FORE TESTING
-        this.openInOneMinute(config);
+        // this.openInOneMinute(config);
 
         this.closeAt = this.normalize(moment(config.closeAt, 'HH:mm'));
         this.openAt = this.normalize(moment(config.openAt, 'HH:mm'));
