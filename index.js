@@ -17,16 +17,16 @@ const bot = new TelegramBot(token, { polling: true });
 var handler = new HandlerManager(config);
 
 
-// Listen for any kind of message. There are different kinds of
-// messages.
+// Listen for any kind of message.
+// There are different kinds of messages.
 bot.on('message', (msg, meta) => {
     handler.handle(msg, meta, bot);
 
-    console.log('msg:', msg);
-    console.log('meta:', meta);
+    // console.log('msg:', msg);
+    // console.log('meta:', meta);
 
     const chatId = msg.chat.id;
 
-    console.dir(msg);
-    console.dir(meta);
+    // console.dir(msg);
+    // console.dir(meta);
 });
